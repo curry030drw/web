@@ -9,10 +9,10 @@
 操作系统：Windows 10;
 
 #三.实验步骤和结果
-[vs code 的下载]![vs code 的下载](https://raw.githubusercontent.com/curry030drw/web/master/img/1.png)
+[vs code 的下载]![adroid studio的第一个程序](https://raw.githubusercontent.com/curry030drw/web/master/img/1.png)
 
-[jypter运行hello world程序]![[jypter运行hello world程序](https://raw.githubusercontent.com/curry030drw/web/master/img/2.png)
+[jypter运行hello world程序]![[jypter运行hello world程序 ](https://raw.githubusercontent.com/curry030drw/web/master/img/2.png)
 
-[adroid studio的第一个程序]![adroid studio的第一个程序](https://raw.githubusercontent.com/curry030drw/web/master/img/3.png)
+[adroid studio的第一个程序]![vs code 的下载](https://raw.githubusercontent.com/curry030drw/web/master/img/3.png)
 
   
