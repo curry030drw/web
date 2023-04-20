@@ -8,7 +8,9 @@
 #二.实验环境
 操作系统：Windows 10;
 
-#三.实验步骤和结果<br />
+#三.实验步骤和结果
+
+<br/>
 [vs code 的下载]
 ![adroid studio的第一个程序](https://raw.githubusercontent.com/curry030drw/web/master/img/3.png)
 
