@@ -4,7 +4,7 @@
 
 
 [vs code 的下载]
-![vs code 的下载](img\3.png)
+![vs code 的下载](https://github.com/curry030drw/web/raw/分支名master/img1/.jpg)
 
 [jypter运行hello world程序]![jypter运行hello world程序](img\2.png)
 
