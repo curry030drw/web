@@ -1,7 +1,7 @@
 # 实验2_2
 ## 创建项目
 首先创建一个新项目，选择“Empty Activity”
-![asd](jpg\jpg1.png)
+![asd](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg1.png)
 将项目命名为“CameraXApp”，软件包名称更改为“com.android.example.cameraxapp”。选择Kotlin语言开发，设定最低支持的API Level 21（CameraX 所需的最低级别）。
 ## 添加 Gradle 依赖
 打开项目的模块（Module）的build.gradle 文件，并添加 CameraX 依赖项：
@@ -98,8 +98,8 @@ buildFeatures {
 
 ```
 布局界面效果如图
-![](jpg/jpg2.png)
-###编写 MainActivity.kt 代码
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg2.png)
+###  编写 MainActivity.kt 代码
 将 MainActivity.kt 中的代码替换为以下代码，但保留软件包名称不变。它包含 import 语句、将要实例化的变量、要实现的函数以及常量。
 
 系统已实现 onCreate()，供我们检查相机权限、启动相机、为照片和拍摄按钮设置 onClickListener()，以及实现 cameraExecutor。虽然系统已经实现 onCreate()，但在实现文件中的方法之前，相机将无法正常工作。
@@ -204,7 +204,7 @@ class MainActivity : AppCompatActivity() {
    }
 }
 ```
-###请求必要的权限
+###  请求必要的权限
 应用需要获得用户授权才能打开相机；录制音频也需要麦克风权限；在 Android 9 § 及更低版本上，MediaStore 需要外部存储空间写入权限。在此步骤中，我们将实现这些必要的权限。
 
 打开 AndroidManifest.xml，然后将以下代码行添加到 application 标记之前。
@@ -253,8 +253,8 @@ else {
 ```
 
 运行应用，可发现应用程序请求使用摄像头和麦克风
-![](jpg/jpg3.png)
-##实现 Preview 用例
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg3.png)
+## 实现 Preview 用例
 在相机应用中，取景器用于让用户预览他们拍摄的照片。我们将使用 CameraX Preview 类实现取景器。
 
 如需使用 Preview，首先需要定义一个配置，然后系统会使用该配置创建用例的实例。生成的实例就是绑定到 CameraX 生命周期的内容。填充之前的startCamera() 函数
@@ -336,7 +336,7 @@ catch(exc: Exception) {
       Log.e(TAG, "Use case binding failed", exc)
 }
 ```
-![](jpg/jpg4.png)
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg4.png)
 ##实现 ImageCapture 用例（拍照功能）
 其他用例与 Preview 非常相似。首先，定义一个配置对象，该对象用于实例化实际用例对象。若要拍摄照片，需要实现 takePhoto() 方法，该方法会在用户按下 photo 按钮时调用。填充takePhoto() 方法的代码：```
 
@@ -489,8 +489,8 @@ private fun startCamera() {
 
 ```
 重新运行应用，然后按 Take Photo。屏幕上应该会显示一个消息框，会在日志中看到一条消息
-![](jpg/jpg5.png)
-##实现 ImageAnalysis 用例
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg5.png)
+## 实现 ImageAnalysis 用例
 需要Android 10 以及更高版本的设备，建议使用实体设备来测试这部分代码
 使用 ImageAnalysis 功能可让相机应用变得更加有趣。它允许定义实现 ImageAnalysis.Analyzer 接口的自定义类，并使用传入的相机帧调用该类。无需管理相机会话状态，甚至无需处理图像；与其他生命周期感知型组件一样，仅绑定到应用所需的生命周期就足够了。
 
@@ -584,7 +584,7 @@ private fun startCamera() {
 
 ```
 立即运行应用！它会大约每秒在 logcat 中生成一个类似于下面的消息
-##实现 VideoCapture 用例（拍摄视频）
+## 实现 VideoCapture 用例（拍摄视频）
 CameraX 在 1.1.0-alpha10 版中添加了 VideoCapture 用例，并且从那以后一直在改进。注意，VideoCapture API 支持很多视频捕获功能，因此，为了使此项目易于管理，仅演示如何在 MediaStore 中捕获视频和音频。
 ```
 将以下代码复制到captureVideo() 方法：该方法可以控制 VideoCapture 用例的启动和停止。
@@ -786,8 +786,8 @@ val imageAnalyzer = ImageAnalysis.Builder()
 6.录制一些剪辑：
 #  最终效果
 ## 录制
-![](jpg/jpg6.png)
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg6.png)
 ## 录制成功
-![](jpg/jpg8.png)
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg8.png)
 ## 查看录制
-![](jpg/jpg7.png)
+![](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C2.2/jpg/jpg7.png)
