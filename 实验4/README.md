@@ -14,7 +14,8 @@
 
 最终的应用将呈现如下的界面：
 
-<img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpgjpg7.jpg" alt="img" style="zoom:50%;" />
+
+<img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg7.jpg" alt="img" style="zoom:20%;" />
 
 ## 预备工作
 
@@ -144,5 +145,5 @@ git clone https://github.com/hoitab/TFLClassify.git
    
    1. 以物理设备重新运行start模块
    2. 最终运行效果
-      <img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg8.jpg" alt="img" style="zoom:50%;" />
+      <img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg8.jpg" alt="img" style="zoom:20%;" />
 
