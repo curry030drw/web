@@ -12,11 +12,6 @@
 - 利用Android Studio导入训练后的模型，并结合CameraX使用
 - 利用手机GPU加速模型运行
 
-最终的应用将呈现如下的界面：
-
-
-<img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg7.jpg" alt="img" style="zoom:20%;" />
-
 ## 预备工作
 
 安装Android Studio 4.1以上版本
