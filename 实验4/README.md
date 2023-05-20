@@ -8,13 +8,13 @@
 
 
 
-- 使用[TensorFlow Lite Model Maker](https://www.tensorflow.org/lite/tutorials/model_maker_image_classification)训练自定义的图像分类器
+- 使用训练自定义的图像分类器
 - 利用Android Studio导入训练后的模型，并结合CameraX使用
 - 利用手机GPU加速模型运行
 
 最终的应用将呈现如下的界面：
 
-<img src="C:\Users\DSHH\Desktop\markdown\jpg\jpg7.jpg" alt="img" style="zoom:50%;" />
+<img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpgjpg7.jpg" alt="img" style="zoom:50%;" />
 
 ## 预备工作
 
@@ -49,25 +49,25 @@ git clone https://github.com/hoitab/TFLClassify.git
 
    6. 允许应用获取手机摄像头的权限，得到下述效果图，界面利用随机数表示虚拟的识别结果
    
-      <img src="C:\Users\DSHH\Desktop\markdown\jpg\jpg7.jpg" alt="在这里插入图片描述" style="zoom:50%;" />。
+      <img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg7.jpg" alt="在这里插入图片描述" style="zoom:50%;" />。
    
    # 向应用中添加TensorFlow Lite
    
    1. 选择"start"模块
-      ![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg1.png)
+      ![在这里插入图片描述](https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg1.png)
    2. 右键“start”模块，或者选择File，然后New>Other>TensorFlow Lite Model
-      ![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg2.png)
+      ![在这里插入图片描述](https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg2.png)
    3. 选择已经下载的自定义的训练模型。本教程模型训练任务以后完成，这里选择finish模块中ml文件下的FlowerModel.tflite。
-      ![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg3.png)
+      ![在这里插入图片描述](https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg3.png)
       点击“Finish”完成模型导入，系统将自动下载模型的依赖包并将依赖项添加至模块的build.gradle文件。
    4. 最终TensorFlow Lite模型被成功导入，并生成摘要信息
-      ![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg2.png)
+      ![在这里插入图片描述](https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg2.png)
    
    # 检查代码中的TODO项
    
    本项目初始代码中包括了若干的TODO项，以导航项目中未完成之处。为了方便起见，首先查看TODO列表视图，View>Tool Windows>TODO
    ![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg5.png)
-   默认情况下了列出项目所有的TODO项，进一步按照模块分组（Group By）![在这里插入图片描述](C:\Users\DSHH\Desktop\markdown\jpg\jpg6.png)
+   默认情况下了列出项目所有的TODO项，进一步按照模块分组（Group By）![在这里插入图片描述](https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg6.png)
 
    # 添加代码重新运行APP
    
@@ -144,5 +144,5 @@ git clone https://github.com/hoitab/TFLClassify.git
    
    1. 以物理设备重新运行start模块
    2. 最终运行效果
-      <img src="C:\Users\DSHH\Desktop\markdown\jpg\jpg8.jpg" alt="img" style="zoom:50%;" />
+      <img src="https://github.com/curry030drw/web/blob/master/实验4/markdown/jpg/jpg8.jpg" alt="img" style="zoom:50%;" />
 
