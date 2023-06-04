@@ -2,7 +2,7 @@
 !pip install tflite-model-maker
 ```
 
-![jpg4](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.1/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/jp1.png)
+![jpg4](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.1/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/jpg1.png)
 
 接下来，导入相关的库。
 
