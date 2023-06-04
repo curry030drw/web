@@ -83,7 +83,8 @@ for i, img_path in enumerate(next_rock+next_paper+next_scissors):
 
 ```
 
-![download2](C:\Users\DSHH\Desktop\jpg\download2.png)![download1](C:\Users\DSHH\Desktop\jpg\download1.png)![download](C:\Users\DSHH\Desktop\jpg\download.png)
+![download2](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/download.png)
+![download1](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/download1.png)![download](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/download2.png)
 
 调用TensorFlow的keras进行数据模型的训练和评估。Keras是开源人工神经网络库，TensorFlow集成了keras的调用接口，可以方便的使用。
 
@@ -274,4 +275,4 @@ plt.show()
 
 ```
 
-![jpg5](C:\Users\DSHH\Desktop\jpg\jpg5.png)
+![jpg5](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/jpg5.png)
