@@ -275,4 +275,4 @@ plt.show()
 
 ```
 
-![jpg5](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/jpg5.png)
+![jpg5](https://github.com/curry030drw/web/blob/master/%E5%AE%9E%E9%AA%8C5.2/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/jpg4.png)
